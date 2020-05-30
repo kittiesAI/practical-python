@@ -27,6 +27,9 @@ while principal > 0:
         total_paid = total_paid - principal
         principal = 0
         
-    print(months, total_paid, principal)
+    # print(months, total_paid, principal)
+    print(f'${months} \t {round(total_paid,2)}   out of \t ${round(principal,2)}')
     
 print('Total months:', months, '\nTotal paid:', total_paid)  
+
+print(f'${round(total_paid,2)} paid in {months} months')
